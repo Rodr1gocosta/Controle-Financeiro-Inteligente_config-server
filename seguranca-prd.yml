@@ -1,1 +1,4 @@
-
+api:
+    securty:
+        token:
+            secret: 123456
