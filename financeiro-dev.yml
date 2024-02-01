@@ -5,18 +5,18 @@ spring:
         url: jdbc:postgresql://localhost:5433/financeiro-db
         username: postgres
         password: root
-  jpa:
+    jpa:
       hibernate:
           ddl-auto: none
-  liquibase:
+    liquibase:
       change-log: liquibase/master.xml
-
-  rabbitmq:
+    
+    rabbitmq:
       host: localhost
       port: 5672
       username: admin
       password: admin
-  cloud:
+    cloud:
       stream:
           bindings:
               userEventConsumer-in-0:
