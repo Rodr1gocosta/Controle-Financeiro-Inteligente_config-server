@@ -7,15 +7,14 @@ spring:
         password: root
     jpa:
         hibernate:
-          ddl-auto: none
+            ddl-auto: none
     liquibase:
-      change-log: liquibase/master.xml
-    
+        change-log: liquibase/master.xml    
     rabbitmq:
-      host: localhost
-      port: 5672
-      username: admin
-      password: admin
+        host: localhost
+        port: 5672
+        username: admin
+        password: admin
     cloud:
       stream:
           bindings:
@@ -31,6 +30,6 @@ spring:
           definition: userEventConsumer;
 
 eureka:
-  client:
-      service-url:
-          defaultzone: http://localhost:8761/eureka
+    client:
+        service-url:
+            defaultzone: http://localhost:8761/eureka
