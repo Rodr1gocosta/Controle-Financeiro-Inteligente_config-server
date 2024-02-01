@@ -6,7 +6,7 @@ spring:
         username: postgres
         password: root
     jpa:
-      hibernate:
+        hibernate:
           ddl-auto: none
     liquibase:
       change-log: liquibase/master.xml
