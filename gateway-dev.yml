@@ -19,11 +19,6 @@ spring:
               filters:
                 - TokenValidationFilter
 
-eureka:
-    client:
-        serviceUrl:
-            defaultzone: http://localhost:8761/eureka
-
 api:
     securty:
         token:
