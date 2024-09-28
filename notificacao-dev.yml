@@ -30,8 +30,3 @@ spring:
                             auto-bind-dlq: true
         function:
             definition: userNewPasswordConsumer;
-
-eureka:
-    client:
-        serviceUrl:
-            defaultzone: http://localhost:8761/eureka
