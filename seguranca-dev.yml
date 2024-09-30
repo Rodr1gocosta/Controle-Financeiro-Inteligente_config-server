@@ -22,8 +22,3 @@ spring:
                   destination: seguranca.event.newUser
               userNewPasswordEventSupplier-out-0:
                   destination: seguranca.event.newUserPassword
-
-api:
-    securty:
-        token:
-            secret: 123456
