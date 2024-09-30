@@ -7,7 +7,7 @@ api:
     security:
         token:
             secret: 123456
-            expiration: 100000
+            expiration: 7200000 # 2 horas em milissegundos
 
 eureka:
     instance:
