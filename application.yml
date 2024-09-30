@@ -3,6 +3,12 @@ authConfig:
         username: serviceregistry
         password: '12345678'
 
+api:
+    securty:
+        token:
+            secret: 123456
+            expiration: 100000
+
 eureka:
     instance:
         hostname: localhost
